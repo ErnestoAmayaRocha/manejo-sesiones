@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="css/estilos_login.css">
+   <link rel="stylesheet" href="css/estilos_iconos.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>LOGIN</title>
+   
+  <body>
+    
+    <div class="container">
+      <div class="ctn-welcome">
+        <img src="images/logo_utd.png" class="logo-welcome">
+        <h1> Bienvenido al sistema UTD </h1>  
+    </div>
+      
+      
+          <!-- <form action="comprueba.php" method="post"> -->
+         
+          <form action="acciones.php" method="post">
+            <h4>Iniciar Sesión</h4>
+              <tr>
+                <input class="input-login" type="text" name="nombre"  placeholder="Usuario" required  id="nombre">
+              </tr>
+              <tr>
+                    <input class="input-login"  type="password" name="pass" placeholder="Contraseña" required id="pass">
+              </tr>
+              <tr>
+                  <input class="btn-login" type="submit" name="enviar" value="ENTRAR" >
+                  <input class="btn-login" type="reset" name="borrar" value="BORRAR" >
+               </tr> 
+          </form>
+         
+
+    <footer id="tm-footer" class="tm-footer">
+          	<p><img src="images/logo_utyp.png" alt="" width="95" height="55" />&nbsp;Copyright © 2018 <a href="http://www.utd.edu.mx" target="_parent" rel="noopener">UTD</a></p></div>
+           
+      </footer>
+  </body>
+</html>
